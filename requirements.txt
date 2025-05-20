@@ -1,0 +1,10 @@
+# This project uses external services and tools:
+# - Google BigQuery (cloud-based)
+# - Tableau Public (desktop app)
+
+# No local Python packages are required for analysis.
+
+# If this were extended with Python analysis, typical packages could include:
+# pandas
+# numpy
+# matplotlib
