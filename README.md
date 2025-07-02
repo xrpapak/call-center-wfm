@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on analyzing and optimizing the operations of a customer support call center using data-driven methods.  
 The key goals are to:
@@ -17,7 +17,7 @@ The key goals are to:
 - Simulate increased demand scenarios and assess staffing adequacy
 - Present actionable KPIs in an interactive Tableau dashboard
 
-## 🔧 Data Preparation & Import
+## Data Preparation & Import
 
 - The dataset was imported into **Google BigQuery** as a CSV file.
 - Column names were cleaned to remove unsupported characters (e.g. spaces, special symbols).
@@ -26,7 +26,7 @@ The key goals are to:
 - The cleaned dataset was exported and loaded into **Tableau Public** for visualization.
 
 
-## 💡 Key Insights
+## Key Insights
 
 - The **average SLA** across the observed period was **70.9%**, with a fair number of days below target.
 - The **abandonment rate** averaged **7.3%**, with some peak days exceeding 75%.
@@ -35,37 +35,37 @@ The key goals are to:
 - A custom simulation using additional agents (+1 per day) showed significant SLA improvement.
 
 
-## 📊 Executive KPIs
+## Executive KPIs
 
 ![KPI Zone](screenshots/kpi_zone.png)
 
 ---
 
-## 📈 SLA Over Time
+## SLA Over Time
 
 ![SLA Over Time](screenshots/sla_over_time.png)
 
 ---
 
-## 🟩 SLA Category Distribution
+## SLA Category Distribution
 
 ![SLA Category](screenshots/sla_category_distribution.png)
 
 ---
 
-## 🟥 Abandonment Rate vs Waiting Time
+## Abandonment Rate vs Waiting Time
 
 ![Abandonment Rate](screenshots/abandonment_rate_colored.png)
 
 ---
 
-## 🔵 Simulated Staffing Gap
+## Simulated Staffing Gap
 
 ![Simulated Staffing Gap](screenshots/simulated_staffing_gap.png)
 
 ---
 
-## 🧠 SQL Analysis & Modeling
+## SQL Analysis & Modeling
 
 All SQL queries were executed on BigQuery. Below are 25 key queries with explanations.
 
